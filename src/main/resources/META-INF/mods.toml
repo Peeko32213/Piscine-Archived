@@ -1,0 +1,49 @@
+
+modLoader="javafml" #mandatory
+
+license="All rights reserved"
+
+loaderVersion="[31,)" #mandatory
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="psc" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Piscine" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="http://example.com/" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="Thanks for this example mod goes to Peeko" #optional
+
+authors="Peeko32213" #optional
+
+description='''
+A Mod about keeping aquatic life with benefits
+'''
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[31,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"

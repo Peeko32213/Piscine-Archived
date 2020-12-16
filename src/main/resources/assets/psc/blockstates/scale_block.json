@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "psc:block/scale_block" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+
+  "values":[
+
+    "psc:pleco_scales",
+    "psc:cory_scales"
+  ]
+}

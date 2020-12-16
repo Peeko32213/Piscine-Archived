@@ -1,0 +1,10 @@
+{
+  "replace": false,
+
+  "values":[
+
+    "psc:raw_freshwater_fish",
+    "psc:cooked_freshwater_fish",
+    "psc:fish_food"
+  ]
+}
