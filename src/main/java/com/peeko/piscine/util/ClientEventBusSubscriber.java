@@ -9,7 +9,7 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
-@Mod.EventBusSubscriber(modid = Piscine.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD,value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = Piscine.MOD_ID, value = Dist.CLIENT)
 public class ClientEventBusSubscriber {
 
 
@@ -23,7 +23,6 @@ public class ClientEventBusSubscriber {
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.TETRA_CAVE.get(), TetraCaveRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.TETRA_GOLD.get(), TetraGoldRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.TETRA_ENDER.get(), TetraEnderRenderer::new);
-        RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.SHRIMP_RED.get(), ShrimpRedRenderer::new);
 
 
     }

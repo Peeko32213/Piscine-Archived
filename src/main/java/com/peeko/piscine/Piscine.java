@@ -45,7 +45,6 @@ public class Piscine
             GlobalEntityTypeAttributes.put(ModEntityTypes.TETRA_CAVE.get(), TetraCaveEntity.setCustomAttributes().create());
             GlobalEntityTypeAttributes.put(ModEntityTypes.TETRA_GOLD.get(), TetraGoldEntity.setCustomAttributes().create());
             GlobalEntityTypeAttributes.put(ModEntityTypes.TETRA_ENDER.get(), TetraEnderEntity.setCustomAttributes().create());
-            GlobalEntityTypeAttributes.put(ModEntityTypes.SHRIMP_RED.get(), ShrimpRedEntity.setCustomAttributes().create());
 
 
         });

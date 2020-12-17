@@ -49,9 +49,6 @@ public class ModEntityTypes {
                     .size(0.5f, 0.3f)
                     .build(new ResourceLocation(Piscine.MOD_ID, "tetra_ender").toString()));
 
-    public static final RegistryObject<EntityType<ShrimpRedEntity>> SHRIMP_RED = ENTITY_TYPES.register("shrimp_red",
-            () -> EntityType.Builder.create(ShrimpRedEntity::new, EntityClassification.WATER_AMBIENT)
-                    .size(0.5f, 0.3f)
-                    .build(new ResourceLocation(Piscine.MOD_ID, "shrimp_red").toString()));
+
 }
 
